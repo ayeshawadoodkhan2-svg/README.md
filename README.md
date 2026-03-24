@@ -20,7 +20,7 @@ A Power Mac G5 earns **2.0x**. A 486 with rusty serial ports earns the most resp
 
 ## Why This Exists
 
-The computing industry throws away working machines every 3-5 years. GPUs that mined Ethereum get replaced. Laptops that still boot get landfilled.
+The computing industry throws away working machines every 3–5 years. GPUs that mined Ethereum get replaced. Laptops that still boot get landfilled.
 
 **RustChain says: if it still computes, it has value.**
 
@@ -115,13 +115,13 @@ Every miner must prove their hardware is real, not emulated. Six checks that VMs
 └─────────────────────────────────────────────────────────┘
 ```
 
-A SheepShaver VM pretending to be a G4 will fail. Real vintage silicon has unique aging patterns that can't be faked.
+A SheepShaver VM pretending to be a G4 will fail. Real vintage silicon has unique aging patterns that cannot be faked.
 
 ### 2. 1 CPU = 1 Vote
 
-Unlike Proof-of-Work where hash power = votes:
+Unlike Proof-of-Work, where hash power equals votes:
 - Each unique hardware device gets exactly 1 vote per epoch
-- Rewards split equally, then multiplied by antiquity
+- Rewards are split equally, then multiplied by antiquity
 - No advantage from faster CPUs or multiple threads
 
 ### 3. Epoch Rewards
@@ -142,10 +142,10 @@ VMs are detected and receive **1 billionth** of normal rewards. Real hardware on
 
 ## Security
 
-- **Hardware binding**: Each fingerprint bound to one wallet
-- **Ed25519 signatures**: All transfers cryptographically signed
+- **Hardware binding**: Each fingerprint is bound to one wallet
+- **Ed25519 signatures**: All transfers are cryptographically signed
 - **TLS cert pinning**: Miners pin node certificates
-- **Container detection**: Docker, LXC, K8s caught at attestation
+- **Container detection**: Docker, LXC, and K8s are caught at attestation
 - **ROM clustering**: Detects emulator farms sharing identical ROM dumps
 - **Red team bounties**: [Open](https://github.com/Scottcjn/rustchain-bounties/issues) for finding vulnerabilities
 
@@ -168,10 +168,10 @@ Every contribution earns RTC tokens. Browse [open bounties](https://github.com/S
 
 | Tier | Reward | Examples |
 |------|--------|----------|
-| Micro | 1-10 RTC | Typo fix, docs, test |
-| Standard | 20-50 RTC | Feature, refactor |
-| Major | 75-100 RTC | Security fix, consensus |
-| Critical | 100-150 RTC | Vulnerability, protocol |
+| Micro | 1–10 RTC | Typo fix, docs, test |
+| Standard | 20–50 RTC | Feature, refactor |
+| Major | 75–100 RTC | Security fix, consensus |
+| Critical | 100–150 RTC | Vulnerability, protocol |
 
 **1 RTC ≈ $0.10 USD** · `pip install clawrtc` · [CONTRIBUTING.md](CONTRIBUTING.md)
 
@@ -195,7 +195,7 @@ Every contribution earns RTC tokens. Browse [open bounties](https://github.com/S
 |---------|------|
 | [BoTTube](https://bottube.ai) | AI-native video platform (1,000+ videos) |
 | [Beacon](https://github.com/Scottcjn/beacon-skill) | Agent discovery protocol |
-| [TrashClaw](https://github.com/Scottcjn/trashclaw) | Zero-dep local LLM agent |
+| [TrashClaw](https://github.com/Scottcjn/trashclaw) | Zero-dependency local LLM agent |
 | [RAM Coffers](https://github.com/Scottcjn/ram-coffers) | NUMA-aware LLM inference on POWER8 |
 | [Grazer](https://github.com/Scottcjn/grazer-skill) | Multi-platform content discovery |
 
